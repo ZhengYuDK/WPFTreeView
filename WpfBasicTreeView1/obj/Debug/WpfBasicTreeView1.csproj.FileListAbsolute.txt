@@ -1,0 +1,14 @@
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\MainWindow.g.cs
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\App.g.cs
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1_MarkupCompile.cache
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1_MarkupCompile.lref
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1.exe
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1.pdb
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\bin\Debug\WpfBasicTreeView1.exe.config
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\bin\Debug\WpfBasicTreeView1.exe
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\bin\Debug\WpfBasicTreeView1.pdb
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\MainWindow.baml
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1.g.resources
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1.Properties.Resources.resources
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1.csproj.GenerateResource.Cache
+C:\Workspace\WPF\WpfBasicTreeView1\WpfBasicTreeView1\obj\Debug\WpfBasicTreeView1.csprojResolveAssemblyReference.cache
