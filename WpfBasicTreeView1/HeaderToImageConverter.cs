@@ -13,21 +13,19 @@ namespace WpfBasicTreeView1
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            var path = (string)value;
-
-            if (path == null)
-                return null;
 
             var image = "IconImages/file.png";
 
-            if (string.IsNullOrEmpty(path))
+            switch ((DirectoryItemType)value)
             {
-                image = "IconImages/drive.png";
-            }else if ( new FileInfo(path).Attributes.HasFlag(FileAttributes.Directory))
-            {
-                image = "IconImages/folder.png";
-            }
+                case DirectoryItemType.Drive:
+                    image = "IconImages/drive.png";
+                    break;
+                case DirectoryItemType.Folder:
+                    image = "IconImages/folder.png";
+                    break;
 
+            }
             return new BitmapImage(new Uri($"pack://Application:,,,/{image}"));
         }
 

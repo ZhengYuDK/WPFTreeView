@@ -63,6 +63,13 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DiretoryService\Data\DirectoryItem.cs" />
+    <Compile Include="DiretoryService\Data\DirectoryItemType.cs" />
+    <Compile Include="DiretoryService\DirectoryService.cs" />
+    <Compile Include="DiretoryService\ViewModels\BaseViewModel.cs" />
+    <Compile Include="DiretoryService\ViewModels\DirectoryItemViewModel.cs" />
+    <Compile Include="DiretoryService\ViewModels\DirectoryStructureViewModel.cs" />
+    <Compile Include="DiretoryService\ViewModels\RelayCommand.cs" />
     <Compile Include="HeaderToImageConverter.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -70,6 +77,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -104,6 +112,11 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="IconImages\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="PropertyChanged.Fody">
+      <Version>2.2.3</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
